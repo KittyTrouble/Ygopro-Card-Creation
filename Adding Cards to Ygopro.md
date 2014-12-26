@@ -110,6 +110,7 @@ All existing combinations are found in the chart below. However, suppose that yo
 - 16777216=Pendulum
 	- 16777233 for Pendulum Normal Monster (16777216 + 16 + 1)
 	- 16777249 for Pendulum Effect Monster (16777216 + 32 + 1)
+
 ## Step 4c: Choosing a monster's race and attribute ##
 
 Skip this section if the card is not a monster. Multi-typing is the same as in the card type section. However, it is unlikely that such a monster will ever exist. Nonetheless, you could add two types and attributes together to get a new type, if you wanted to.
