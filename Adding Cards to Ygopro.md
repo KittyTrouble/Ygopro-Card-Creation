@@ -55,7 +55,7 @@ You will never really use a tag by itself. The exception are the Spell and Trap 
 
 Here are a few examples: The "Monster" tag is 1, you will add it to all other tags that are monsters. So for "Monster|Normal" you will add the Normal tag, 16, plus the Monster tag, 1, to get 17. Tuner is a tag that can be added to Normal monsters or Effect monsters, so you add the code for Tuner (4096) plus the codes for Normal and Monster or the codes for Effect and monster to get the code you want.
 
-All existing combinations are found in the chart below. However, suppose that you need to include a new combination that does not previously exist. Say, a Fusion Monster who is also a Union Monster, Tuner, and has an Effect. You would look up each of those codes: 1 (Monster) + 32 (Effect) + 1024 (Union) + 4096 (Tuner), and 5153 would be your new code. Hope that makes sense.
+All existing combinations are found in the chart below. However, suppose that you need to include a new combination that does not previously exist. Say, a Fusion Monster who is also a Union Monster, Tuner, and has an Effect. You would look up each of those codes: 1 (Monster) + 32 (Effect) + 64 (Fusion) + 1024 (Union) + 4096 (Tuner), and 5217 would be your new code. Hope that makes sense.
 
 - 1=Generic Monster (Used in combination with other tags)
 - 2=Spell Card (Normal by default)
