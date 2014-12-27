@@ -57,57 +57,57 @@ Here are a few examples: The "Monster" tag is 1, you will add it to all other ta
 
 All existing combinations are found in the chart below. However, suppose that you need to include a new combination that does not previously exist. Say, a Fusion Monster who is also a Union Monster, Tuner, and has an Effect. You would look up each of those codes: 1 (Monster) + 32 (Effect) + 64 (Fusion) + 1024 (Union) + 4096 (Tuner), and 5217 would be your new code. Hope that makes sense.
 
-- `1`=Generic Monster (Used in combination with other tags)
-- `2`=Spell Card (Normal by default)
-- `4`=Trap Card (Normal by default)
-- `8`=??? (Used by tokens)
-- `16`=Normal
+- `1` : Generic Monster (Used in combination with other tags)
+- `2` : Spell Card (Normal by default)
+- `4` : Trap Card (Normal by default)
+- `8` : ??? (Used by tokens)
+- `16` : Normal
 	- 17 for Normal Monster (16 + 1)
-- `32`=Effect
+- `32` : Effect
 	- 33 for Effect Monster (32 + 1)
-- `64`=Fusion
+- `64` : Fusion
 	- `65` for Fusion Monster (64 + 1)
 	- `97` for Fusion / Effect Monster (64 + 32 + 1)
-- `128`=Ritual
+- `128` : Ritual
 	- `129` for Ritual Monster (128 + 1)
 	- `130` for Ritual Spell (128 + 2)
 	- `161` for Ritual / Effect Monster (128 + 32 + 1)
-- `256`=Trap Monsters (I don't know what this does, but it's not used in any cards I see. Use Continuous Traps instead for Trap Monsters.)
-- `512`=Spirit
+- `256` : Trap Monsters (I don't know what this does, but it's not used in any cards I see. Use Continuous Traps instead for Trap Monsters.)
+- `512` : Spirit
 	- `545` for Spirit Monster (With effect, 512 + 32 + 1)
-- `1024`=Union
+- `1024` : Union
 	- 1057 for Union Monster (With effect, 1024 + 32 + 1)
-- `2048`=Gemini
+- `2048` : Gemini
 	- `2081` for Gemini Monster (With effect, 2048 + 32 + 1)
-- `4096`=Tuner
+- `4096` : Tuner
 	- `4113` for Tuner / Normal Monster (4096 + 16 + 1)
 	- `4129` for Tuner / Effect Monster (4096 + 32 + 1)
-- `8192`=Synchro
+- `8192` : Synchro
 	- `8193` for Synchro Monster (8192 + 1)
 	- `8225` for Synchro / Effect Monster (8192 + 32 + 1)
 	- `12321` for Synchro / Tuner / Effect Monster (8192 + 4096 + 32 + 1)
-- `16384`=Token
+- `16384` : Token
 	- `16401` for Actual Token (Uses 16384 + 16 for Normal + 8 for ??? + 1 for monster)
-- `32768`=??? (I do not know what this is used for.)
-- `65536`=Quick-Play
+- `32768` : ??? (I do not know what this is used for.)
+- `65536` : Quick-Play
 	- 65538 for Quick-Play Spell Card (65536 + 2)
-- `131072`=Continuous
+- `131072` : Continuous
 	- `131074` for Continuous Spell Card (131072 + 2)
 	- `131076` for Continuous Trap Card (131072 + 4)
-- `262144`=Equip
+- `262144` : Equip
 	- 262146 for Equip Spell Card (262144 + 2)
-- `524288`=Field
+- `524288` : Field
 	- `524290` for Field Spell Card (524288 + 2)
-- `1048576`=Counter
+- `1048576` : Counter
 	- `1048580` for Counter Trap Card (1048576 + 4)
-- `2097152`=Flip
+- `2097152` : Flip
 	- `2097185` for Flip Effect Monster (2097152 + 32 + 1)
-- `4194304`=Toon
+- `4194304` : Toon
 	- `4194337` for Toon Monster (With effect, 4914304 + 32 + 1)
-- `8388608`=Xyz
+- `8388608` : Xyz
 	- `8388609` for Xyz Monster (8388608 + 1)
 	- `8388641` for Xyz / Effect Monster (8388608 + 32 + 1)
-- `16777216`=Pendulum
+- `16777216` : Pendulum
 	- `16777233` for Pendulum Normal Monster (16777216 + 16 + 1)
 	- `16777249` for Pendulum Effect Monster (16777216 + 32 + 1)
 
@@ -117,40 +117,40 @@ Skip this section if the card is not a monster. Multi-typing is the same as in t
 
 **List of races**
 
-- `1`=Warrior
-- `2`=Spellcaster
-- `4`=Fairy
-- `8`=Fiend
-- `16`=Zombie
-- `32`=Machine
-- `64`=Aqua
-- `128`=Pyro
-- `256`=Rock
-- `512`=Winged-beast
-- `1024`=Plant
-- `2048`=Insect
-- `4096`=Thunder
-- `8192`=Dragon
-- `16384`=Beast
-- `32768`=Beast-Warrior
-- `65536`=Dinosaur
-- `131072`=Fish
-- `262144`=Sea Serpent
-- `524288`=Reptile
-- `1048576`=Psychic
-- `2097152`=Divine-beast
-- `4194304`=Creator God
-- `8388608`=Wyrm
+- `1` : Warrior
+- `2` : Spellcaster
+- `4` : Fairy
+- `8` : Fiend
+- `16` : Zombie
+- `32` : Machine
+- `64` : Aqua
+- `128` : Pyro
+- `256` : Rock
+- `512` : Winged-beast
+- `1024` : Plant
+- `2048` : Insect
+- `4096` : Thunder
+- `8192` : Dragon
+- `16384` : Beast
+- `32768` : Beast-Warrior
+- `65536` : Dinosaur
+- `131072` : Fish
+- `262144` : Sea Serpent
+- `524288` : Reptile
+- `1048576` : Psychic
+- `2097152` : Divine-beast
+- `4194304` : Creator God
+- `8388608` : Wyrm
 
 **List of attributes**
 
-- `1`=EARTH
-- `2`=WATER
-- `4`=FIRE
-- `8`=WIND
-- `16`=LIGHT
-- `32`=DARK
-- `64`=DIVINE
+- `1` : EARTH
+- `2` : WATER
+- `4` : FIRE
+- `8` : WIND
+- `16` : LIGHT
+- `32` : DARK
+- `64` : DIVINE
 
 ## Step 5: Including the card's image ##
 
@@ -168,4 +168,4 @@ Next, you need to script your card. That will be covered in the next tutorial.
 Credits: I used the following sources as well as my own experiments to make this tutorial:
 
 [http://www.ygopro.co/tabid/95/g/posts/t/120/Adding-cards-to-YGOPro--Tutorial----Scripting-video-Added.aspx#post381](http://www.ygopro.co/tabid/95/g/posts/t/120/Adding-cards-to-YGOPro--Tutorial----Scripting-video-Added.aspx#post381)
-[https://www.youtube.com/watch?v=XePYKHv4g1o#t=17](https://www.youtube.com/watch?v=XePYKHv4g1o#t=17)
+[https://www.youtube.com/watch?v : XePYKHv4g1o#t : 17](https://www.youtube.com/watch?v : XePYKHv4g1o#t : 17)
