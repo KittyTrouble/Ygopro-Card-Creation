@@ -64,7 +64,7 @@ All existing combinations are found in the chart below. However, suppose that yo
 - `16` : Normal
 	- 17 for Normal Monster (16 + 1)
 - `32` : Effect
-	- 33 for Effect Monster (32 + 1)
+	- `33` for Effect Monster (32 + 1)
 - `64` : Fusion
 	- `65` for Fusion Monster (64 + 1)
 	- `97` for Fusion / Effect Monster (64 + 32 + 1)
@@ -76,7 +76,7 @@ All existing combinations are found in the chart below. However, suppose that yo
 - `512` : Spirit
 	- `545` for Spirit Monster (With effect, 512 + 32 + 1)
 - `1024` : Union
-	- 1057 for Union Monster (With effect, 1024 + 32 + 1)
+	- `1057` for Union Monster (With effect, 1024 + 32 + 1)
 - `2048` : Gemini
 	- `2081` for Gemini Monster (With effect, 2048 + 32 + 1)
 - `4096` : Tuner
@@ -90,12 +90,12 @@ All existing combinations are found in the chart below. However, suppose that yo
 	- `16401` for Actual Token (Uses 16384 + 16 for Normal + 8 for ??? + 1 for monster)
 - `32768` : ??? (I do not know what this is used for.)
 - `65536` : Quick-Play
-	- 65538 for Quick-Play Spell Card (65536 + 2)
+	- `65538` for Quick-Play Spell Card (65536 + 2)
 - `131072` : Continuous
 	- `131074` for Continuous Spell Card (131072 + 2)
 	- `131076` for Continuous Trap Card (131072 + 4)
 - `262144` : Equip
-	- 262146 for Equip Spell Card (262144 + 2)
+	- `262146` for Equip Spell Card (262144 + 2)
 - `524288` : Field
 	- `524290` for Field Spell Card (524288 + 2)
 - `1048576` : Counter
