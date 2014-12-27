@@ -167,5 +167,5 @@ Next, you need to script your card. That will be covered in the next tutorial.
 ----------
 Credits: I used the following sources as well as my own experiments to make this tutorial:
 
-[http://www.ygopro.co/tabid/95/g/posts/t/120/Adding-cards-to-YGOPro--Tutorial----Scripting-video-Added.aspx#post381](http://www.ygopro.co/tabid/95/g/posts/t/120/Adding-cards-to-YGOPro--Tutorial----Scripting-video-Added.aspx#post381)
-[https://www.youtube.com/watch?v : XePYKHv4g1o#t : 17](https://www.youtube.com/watch?v : XePYKHv4g1o#t : 17)
+- [Adding cards to YGOPro Tutorial @ YGOPro.co](http://www.ygopro.co/tabid/95/g/posts/t/120/Adding-cards-to-YGOPro--Tutorial----Scripting-video-Added.aspx#post381)
+- [Tutorial How to add cards to YGOPro](https://www.youtube.com/watch?v=XePYKHv4g1o#t=17)
