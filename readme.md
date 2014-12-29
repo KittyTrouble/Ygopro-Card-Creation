@@ -38,6 +38,7 @@ Next do the same steps in the data sub-database. The records you will edit are a
 	- Basic archetypes run from hexadecimal value 0x1-0xFFF (4095 in decimal)
 	- Extension archetypes are one hexadecimal digit appended with the 3-digit hexadecimal value of another archetype. For example, if you wanted to create an "Ojama Knight" archetype, with "Ojama" already possessing the hex value 0xF (you need to convert the decimal value to hex first), first add zeros so 0x00F and then pick a digit to go before it. So your "Ojama Knight" archetype could be 0x100F, or converted back to decimal 4111.
 	- Dual archetypes are formed by converting two archetypes to hex, expanding them to 4 digits, and appending them to each other in either order. For example, if you wanted to create a monster called "The Fabled Lightsworn", take the archetype value for Fabled (53, converted to 0x0035), the value for Lightsworn (56, converted to 0x0038) and append them to each other (0x00350038) then convert that number back to decimal and you would have your new setcode value of 3473464.
+		- This can be done with 3 or more archetypes. See Number 62: Galaxy-Eyes Prime Proton Dragon, which is a combination of Galaxy-Eyes (4219, or 0x107B), Photon (85, or 0x0055), and Number (72, or 0x0048) to make 0x107B00550048 which converts to 18120472592456. 
 - `type`: the type of card, for example Spell Card, Fusion Monster, etc. See section 4b for what to enter here.
 - `atk`: the ATK of the monster, 0 if spell/trap.
 - `def`: the DEF of a monster, 0 if spell.trap.
